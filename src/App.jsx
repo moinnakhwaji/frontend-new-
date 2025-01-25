@@ -7,6 +7,9 @@ import About from './pages/About';
 import Profile from './pages/Profile';
 import CreateProfile from './pages/Createprofile';
 
+import ChatApp from './components/Chatroom';
+import TeamForm from './pages/TeamCreation';
+
 
 
 const App = () => {
@@ -21,6 +24,9 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/Createprofile" element={<CreateProfile />} />
+          <Route path="/Chat" element={<ChatApp />} />
+          <Route path="/team" element={<TeamForm />} />
+          
         </Routes>
       </div>
     </Router>
