@@ -47,46 +47,48 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "This platform helped me find the right teammates with the right skills, and we built something amazing together during our hackathon!",
+    name: "Alice Johnson",
+    title: "Computer Science Student",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "I was struggling to find a team for a group project. Thanks to this platform, I connected with students who were the perfect fit. It made my learning experience so much better.",
+    name: "Brian Smith",
+    title: "Web Development Student",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "As a beginner, I was unsure about my skills. This platform allowed me to team up with experienced students, and I learned so much during our collaboration.",
+    name: "Carla Davis",
+    title: "Product Design Student",
     img: people03,
   },
 ];
 
+
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Teammates Matched",
+    value: "500+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Successful Collaborations",
+    value: "150+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Projects Completed",
+    value: "1000+",
   },
 ];
+
 
 export const footerLinks = [
   {

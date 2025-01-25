@@ -5,6 +5,7 @@ import {Contact  } from './pages/Contact';
 import Home from './Home';
 import About from './pages/About';
 import Profile from './pages/Profile';
+import CreateProfile from './pages/Createprofile';
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/login" element={<AuthPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/Createprofile" element={<CreateProfile />} />
         </Routes>
       </div>
     </Router>
